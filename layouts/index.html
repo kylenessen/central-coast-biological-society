@@ -7,7 +7,7 @@
       <p class="tagline">Quarterly science talks for curious naturalists across land and sea.</p>
       <div class="hero-actions">
         <a href="#next-event" class="btn">See the next talk</a>
-        <a href="/join/" class="btn ghost">Join the mailing list</a>
+        <a href="{{ "/join/" | relURL }}" class="btn ghost">Join the mailing list</a>
       </div>
       <ul class="pill-list">
         <li>Free evening programs</li>
@@ -67,7 +67,7 @@
         {{ if .note }}
         <p class="event-note">{{ .note }}</p>
         {{ end }}
-        <a class="btn subtle" href="/join/">Get reminders</a>
+        <a class="btn subtle" href="{{ "/join/" | relURL }}">Get reminders</a>
       </div>
     </div>
     {{ else }}
@@ -86,7 +86,7 @@
       <div class="intro-copy">
         <p>The Central Coast Biological Society has been bringing together biologists, educators, students, and nature enthusiasts since 1986. We host quarterly talks on topics ranging from marine biology to terrestrial ecology, from microscopic organisms to whales.</p>
         <p>Our evenings mix research updates, field notes, and the stories behind local stewardship work—always with time to meet fellow naturalists.</p>
-        <p><a href="/about/" class="btn secondary">Read our 40-year history</a></p>
+        <p><a href="{{ "/about/" | relURL }}" class="btn secondary">Read our 40-year history</a></p>
       </div>
       <div class="intro-card">
         <h3>What you can do</h3>
@@ -107,19 +107,19 @@
       <p class="eyebrow">Stay connected</p>
       <h3>Join the mailing list</h3>
       <p>Get 3–4 emails per year with meeting dates, themes, and field trip plans.</p>
-      <a class="btn" href="/join/">Sign up</a>
+      <a class="btn" href="{{ "/join/" | relURL }}">Sign up</a>
     </div>
     <div class="cta-card">
       <p class="eyebrow">Explore</p>
       <h3>Talk history</h3>
       <p>Browse past programs—from pronghorn and kelp forests to condors and kangaroo rats.</p>
-      <a class="btn ghost" href="/talks/">See the archive</a>
+      <a class="btn ghost" href="{{ "/talks/" | relURL }}">See the archive</a>
     </div>
     <div class="cta-card">
       <p class="eyebrow">Lead</p>
       <h3>Steering Committee</h3>
       <p>Help shape future topics, field trips, and community connections.</p>
-      <a class="btn ghost" href="/committee/">Meet the committee</a>
+      <a class="btn ghost" href="{{ "/committee/" | relURL }}">Meet the committee</a>
     </div>
   </div>
 </section>
