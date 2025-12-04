@@ -26,10 +26,14 @@ disableKinds = ['taxonomy', 'term']
     url = '/talks/'
     weight = 3
   [[menu.main]]
+    name = 'Speakers'
+    url = '/speakers/'
+    weight = 4
+  [[menu.main]]
     name = 'Committee'
     url = '/committee/'
-    weight = 4
+    weight = 5
   [[menu.main]]
     name = 'Join'
     url = '/join/'
-    weight = 5
+    weight = 6
