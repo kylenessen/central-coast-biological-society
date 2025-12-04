@@ -11,8 +11,10 @@
       {{ range .events }}
         {{ if .talks }}
           {{ range .talks }}
-            {{ with .speaker }}
-              {{ $talk := dict "year" $year "title" .title }}
+            {{ $speakerName := .speaker }}
+            {{ $title := .title }}
+            {{ with $speakerName }}
+              {{ $talk := dict "year" $year "title" $title }}
               {{ $existing := index $speakers . | default (slice) }}
               {{ $speakers = merge $speakers (dict . (append $existing $talk)) }}
             {{ end }}
