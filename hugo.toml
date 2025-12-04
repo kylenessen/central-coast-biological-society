@@ -1,6 +1,12 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Central Coast Biological Society'
+disableKinds = ['taxonomy', 'term']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   description = 'Quarterly science talks on natural history since 1986'
