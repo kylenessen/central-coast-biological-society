@@ -14,7 +14,6 @@
             {{ with .speaker }}
               {{ $talk := dict "year" $year "title" .title }}
               {{ $existing := index $speakers . | default (slice) }}
-              {{ if not (isSlice $existing) }}{{ $existing = slice $existing }}{{ end }}
               {{ $speakers = merge $speakers (dict . (append $existing $talk)) }}
             {{ end }}
           {{ end }}
