@@ -7,9 +7,9 @@
     {{ range .Site.Data.talks }}
     <section class="talks-year">
       <h2>{{ .year }}</h2>
-      {{ range (.events | reverse) }}
+      {{ range sort .events "date" "desc" }}
       <div class="talk-entry {{ if .field_trip }}field-trip{{ end }}">
-        <p class="talk-date">{{ .date }}</p>
+        <p class="talk-date">{{ if .date }}{{ time.Format "Jan 2" .date }}{{ end }}</p>
         {{ if .field_trip }}
         <p><strong>Summer Trip:</strong> {{ .field_trip }}</p>
         {{ else if .talks }}
