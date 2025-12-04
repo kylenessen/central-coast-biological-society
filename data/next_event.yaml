@@ -1,0 +1,13 @@
+# Next upcoming event - update this file to change the homepage announcement
+month: "Feb"
+day: "10"
+year: "2025"
+time: "7:00 PM"
+location: "PG&E Community Center, San Luis Obispo"
+theme: "Carrizo Plain Wildlife"
+speakers:
+  - name: "Dave Hacker"
+    title: "From Recent Abundance to Present Obscurity: the History, Current Status, and Management of Pronghorn in the Carrizo Plains"
+  - name: "Scott Appleby"
+    title: "Giant Kangaroo Rats on the Carrizo Plain: Cutesy, Demure Ecosystem Engineers Under Pressure"
+note: "Free admission. Refreshments provided."

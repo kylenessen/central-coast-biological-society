@@ -1,0 +1,22 @@
+# Current Steering Committee (40th Anniversary - 2026)
+current:
+  - name: "Steve Hendricks"
+    role: "Chair"
+  - name: "Dave Bowlus"
+    role: ""
+  - name: "Faylla Chapman"
+    role: ""
+  - name: "Kyle Nessen"
+    role: ""
+  - name: "Ron Ruppert"
+    role: ""
+  - name: "Trevor Ruppert"
+    role: ""
+  # Add additional members here
+
+# Honorary charter members
+honorary:
+  - name: "Harry Fierstine"
+    role: "Honorary Charter Member"
+  - name: "Arline Fierstine"
+    role: "Honorary Charter Member"
