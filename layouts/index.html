@@ -1,14 +1,48 @@
 {{ define "main" }}
 <section class="hero">
-  <div class="container">
-    <h1>{{ .Site.Title }}</h1>
-    <p class="tagline">{{ .Site.Params.description }}</p>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Central Coast, CA • Since 1986</p>
+      <h1>Quarterly science talks for curious naturalists</h1>
+      <p class="tagline">{{ .Site.Params.description }}</p>
+      <div class="hero-actions">
+        <a href="#next-event" class="btn">See the next talk</a>
+        <a href="/join/" class="btn ghost">Join the mailing list</a>
+      </div>
+      <ul class="pill-list">
+        <li>Free evening programs</li>
+        <li>Two speakers every meeting</li>
+        <li>Field trip and picnic each summer</li>
+      </ul>
+    </div>
+    <div class="hero-card">
+      <p class="card-label">Community-built biology</p>
+      <p class="card-text">We bring together biologists, educators, students, and nature enthusiasts to share research, stories, and stewardship across the Central Coast.</p>
+      <div class="hero-highlights">
+        <div>
+          <span class="hero-highlight-title">Welcoming & free</span>
+          <p>Open to anyone interested in natural history.</p>
+        </div>
+        <div>
+          <span class="hero-highlight-title">Marine to terrestrial</span>
+          <p>Talks span local waters, rangelands, forests, and beyond.</p>
+        </div>
+        <div>
+          <span class="hero-highlight-title">Mentorship</span>
+          <p>Students and seasoned professionals connect over shared curiosity.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="next-event">
-  <div class="container">
-    <h2>Next Event</h2>
+<section class="next-event" id="next-event">
+  <div class="container narrow">
+    <div class="section-heading">
+      <p class="eyebrow">Upcoming</p>
+      <h2>Next Event</h2>
+      <p class="lede">Thursday evening community talks with two speakers and refreshments.</p>
+    </div>
     {{ with .Site.Data.next_event }}
     <div class="event-card">
       <div class="event-date">
@@ -33,6 +67,7 @@
         {{ if .note }}
         <p class="event-note">{{ .note }}</p>
         {{ end }}
+        <a class="btn subtle" href="/join/">Get reminders</a>
       </div>
     </div>
     {{ else }}
@@ -42,10 +77,50 @@
 </section>
 
 <section class="intro">
-  <div class="container">
-    <h2>About Us</h2>
-    <p>The Central Coast Biological Society has been bringing together biologists, educators, students, and nature enthusiasts since 1986. We host quarterly talks on topics ranging from marine biology to terrestrial ecology, from microscopic organisms to whales.</p>
-    <p><a href="/about/" class="btn">Learn more about our history</a></p>
+  <div class="container narrow">
+    <div class="section-heading">
+      <p class="eyebrow">Who we are</p>
+      <h2>Central Coast Biological Society</h2>
+    </div>
+    <div class="intro-grid">
+      <div class="intro-copy">
+        <p>The Central Coast Biological Society has been bringing together biologists, educators, students, and nature enthusiasts since 1986. We host quarterly talks on topics ranging from marine biology to terrestrial ecology, from microscopic organisms to whales.</p>
+        <p>Our evenings mix research updates, field notes, and the stories behind local stewardship work—always with time to meet fellow naturalists.</p>
+        <p><a href="/about/" class="btn secondary">Read our 40-year history</a></p>
+      </div>
+      <div class="intro-card">
+        <h3>What you can do</h3>
+        <ul class="list-checks">
+          <li>Share your research or field observations</li>
+          <li>Bring students to their first community science talk</li>
+          <li>Suggest themes or speakers for upcoming programs</li>
+          <li>Join the Steering Committee or volunteer at events</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container cta-grid">
+    <div class="cta-card">
+      <p class="eyebrow">Stay connected</p>
+      <h3>Join the mailing list</h3>
+      <p>Get 3–4 emails per year with meeting dates, themes, and field trip plans.</p>
+      <a class="btn" href="/join/">Sign up</a>
+    </div>
+    <div class="cta-card">
+      <p class="eyebrow">Explore</p>
+      <h3>Talk history</h3>
+      <p>Browse past programs—from pronghorn and kelp forests to condors and kangaroo rats.</p>
+      <a class="btn ghost" href="/talks/">See the archive</a>
+    </div>
+    <div class="cta-card">
+      <p class="eyebrow">Lead</p>
+      <h3>Steering Committee</h3>
+      <p>Help shape future topics, field trips, and community connections.</p>
+      <a class="btn ghost" href="/committee/">Meet the committee</a>
+    </div>
   </div>
 </section>
 {{ end }}
