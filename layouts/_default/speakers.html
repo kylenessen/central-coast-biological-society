@@ -4,46 +4,45 @@
     <h1>{{ .Title }}</h1>
     {{ .Content }}
 
-    {{/* Collect speaker -> talks map safely */}}
-    {{ $speakers := dict }}
+    {{/* Collect unique speaker names */}}
+    {{ $speakerNames := slice }}
     {{ range .Site.Data.talks }}
       {{ $year := .year }}
       {{ range .events }}
         {{ if .talks }}
           {{ range .talks }}
-            {{ $speakerName := .speaker }}
-            {{ $title := .title }}
-            {{ with $speakerName }}
-              {{ $talk := dict "year" $year "title" $title }}
-              {{ $existing := index $speakers . | default (slice) }}
-              {{ $speakers = merge $speakers (dict . (append $existing $talk)) }}
+            {{ with .speaker }}
+              {{ $speakerNames = $speakerNames | append . }}
             {{ end }}
           {{ end }}
         {{ end }}
       {{ end }}
     {{ end }}
-
-    {{/* Sorted speaker names */}}
-    {{ $speakerNames := slice }}
-    {{ range $name, $_ := $speakers }}
-      {{ $speakerNames = $speakerNames | append $name }}
-    {{ end }}
-    {{ $speakerNames = sort $speakerNames }}
+    {{ $speakerNames = uniq $speakerNames | sort }}
 
     <p class="speaker-count"><strong>{{ len $speakerNames }}</strong> speakers since 1986</p>
 
     <div class="speaker-list">
       {{ range $speakerNames }}
         {{ $currentSpeaker := . }}
-        {{ $talks := index $speakers $currentSpeaker | sort "year" "desc" }}
         <div class="speaker-entry">
           <h3 class="speaker-name">{{ $currentSpeaker }}</h3>
           <ul class="speaker-talks">
-            {{ range $talks }}
-              <li>
-                <span class="talk-year">{{ .year }}</span>
-                <span class="talk-title">{{ .title }}</span>
-              </li>
+            {{/* Find all talks by this speaker */}}
+            {{ range $.Site.Data.talks }}
+              {{ $year := .year }}
+              {{ range .events }}
+                {{ if .talks }}
+                  {{ range .talks }}
+                    {{ if eq .speaker $currentSpeaker }}
+                      <li>
+                        <span class="talk-year">{{ $year }}</span>
+                        <span class="talk-title">{{ .title }}</span>
+                      </li>
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
             {{ end }}
           </ul>
         </div>
