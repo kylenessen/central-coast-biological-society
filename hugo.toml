@@ -1,0 +1,29 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Central Coast Biological Society'
+
+[params]
+  description = 'Quarterly science talks on natural history since 1986'
+  org_email = 'steve@example.com'  # Update with Steve's actual email
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 2
+  [[menu.main]]
+    name = 'Talk History'
+    url = '/talks/'
+    weight = 3
+  [[menu.main]]
+    name = 'Committee'
+    url = '/committee/'
+    weight = 4
+  [[menu.main]]
+    name = 'Join'
+    url = '/join/'
+    weight = 5

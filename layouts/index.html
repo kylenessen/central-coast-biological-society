@@ -1,0 +1,51 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <h1>{{ .Site.Title }}</h1>
+    <p class="tagline">{{ .Site.Params.description }}</p>
+  </div>
+</section>
+
+<section class="next-event">
+  <div class="container">
+    <h2>Next Event</h2>
+    {{ with .Site.Data.next_event }}
+    <div class="event-card">
+      <div class="event-date">
+        <span class="month">{{ .month }}</span>
+        <span class="day">{{ .day }}</span>
+        <span class="year">{{ .year }}</span>
+      </div>
+      <div class="event-details">
+        <p class="event-time">{{ .time }}</p>
+        <p class="event-location">{{ .location }}</p>
+        {{ if .theme }}
+        <p class="event-theme"><strong>Theme:</strong> {{ .theme }}</p>
+        {{ end }}
+        <div class="speakers">
+          {{ range .speakers }}
+          <div class="speaker">
+            <h3>{{ .name }}</h3>
+            <p class="talk-title">"{{ .title }}"</p>
+          </div>
+          {{ end }}
+        </div>
+        {{ if .note }}
+        <p class="event-note">{{ .note }}</p>
+        {{ end }}
+      </div>
+    </div>
+    {{ else }}
+    <p class="no-event">Check back soon for our next event announcement!</p>
+    {{ end }}
+  </div>
+</section>
+
+<section class="intro">
+  <div class="container">
+    <h2>About Us</h2>
+    <p>The Central Coast Biological Society has been bringing together biologists, educators, students, and nature enthusiasts since 1986. We host quarterly talks on topics ranging from marine biology to terrestrial ecology, from microscopic organisms to whales.</p>
+    <p><a href="/about/" class="btn">Learn more about our history</a></p>
+  </div>
+</section>
+{{ end }}

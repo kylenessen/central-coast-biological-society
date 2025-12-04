@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; {{ now.Year }} {{ .Site.Title }}. Serving the Central Coast since 1986.</p>
+  </div>
+</footer>
+
+<script>
+// Mobile nav toggle
+document.querySelector('.nav-toggle').addEventListener('click', function() {
+  document.querySelector('.nav-menu').classList.toggle('open');
+  this.classList.toggle('open');
+});
+</script>
