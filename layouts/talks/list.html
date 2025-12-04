@@ -1,0 +1,32 @@
+{{ define "main" }}
+<article class="page talks-page">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+
+    {{ range .Site.Data.talks }}
+    <section class="talks-year">
+      <h2>{{ .year }}</h2>
+      {{ range .events }}
+      <div class="talk-entry {{ if .field_trip }}field-trip{{ end }}">
+        <p class="talk-date">{{ .date }}</p>
+        {{ if .field_trip }}
+        <p><strong>Summer Trip:</strong> {{ .field_trip }}</p>
+        {{ else if .talks }}
+        {{ range .talks }}
+        <p>
+          {{ if .speaker }}<span class="talk-speaker">{{ .speaker }}</span> — {{ end }}
+          <span class="talk-topic">{{ .title }}</span>
+        </p>
+        {{ end }}
+        {{ end }}
+        {{ if .note }}
+        <p class="event-note"><em>{{ .note }}</em></p>
+        {{ end }}
+      </div>
+      {{ end }}
+    </section>
+    {{ end }}
+  </div>
+</article>
+{{ end }}

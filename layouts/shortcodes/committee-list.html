@@ -1,0 +1,13 @@
+{{ range .Site.Data.committee.current }}
+<div class="committee-member">
+  <h3>{{ .name }}</h3>
+  {{ if .role }}<p class="role">{{ .role }}</p>{{ end }}
+</div>
+{{ end }}
+
+{{ range .Site.Data.committee.honorary }}
+<div class="committee-member">
+  <h3>{{ .name }}</h3>
+  {{ if .role }}<p class="role">{{ .role }}</p>{{ end }}
+</div>
+{{ end }}
