@@ -2,13 +2,13 @@
 
 - year: 2025
   events:
-    - date: "Feb 10"
+    - date: "2025-02-10"
       talks:
         - speaker: "Dave Hacker"
           title: "From Recent Abundance to Present Obscurity: the History, Current Status, and Management of Pronghorn in the Carrizo Plains"
         - speaker: "Scott Appleby"
           title: "Giant Kangaroo Rats on the Carrizo Plain: Cutesy, Demure Ecosystem Engineers Under Pressure"
-    - date: "April 7"
+    - date: "2025-04-07"
       talks:
         - speaker: "Emily Taylor"
           title: "Lizards in Wonderland: California's Bounty of Scaly, 4-legged Life"
@@ -16,9 +16,9 @@
           title: "Spying on Sunbathers: Investigating Environmental Tradeoffs in Rattlesnake behavior"
         - speaker: "Owen Bachhuber"
           title: "A Snakey Community: Interactions of Reptile Sociality Research and Outreach"
-    - date: "Aug 23"
+    - date: "2025-08-23"
       field_trip: "Tour of Piedras Blancas lighthouse"
-    - date: "Oct 28"
+    - date: "2025-10-28"
       talks:
         - speaker: "Kyle Nessen"
           title: "Wind resilience in overwintering monarch butterflies"
@@ -27,21 +27,21 @@
 
 - year: 2024
   events:
-    - date: "Feb 8"
+    - date: "2024-02-08"
       talks:
         - speaker: "Cooper Lienhart"
           title: "Beavers: Creating a wetter and more resilient Central Coast"
         - speaker: "Meredith Hardy"
           title: "Improve, Restore and Don't Give Up! Steelhead Habitat"
-    - date: "April 29"
+    - date: "2024-04-29"
       talks:
         - speaker: "Susan Lema"
           title: "The Pupfishes of Death Valley: Life at the Extremes"
         - speaker: "Erin Johnston"
           title: "17 Years of Collaborative Fisheries Research in Central CA"
-    - date: "Aug 17"
+    - date: "2024-08-17"
       field_trip: "Bats at Sweet Springs with Ron Ruppert"
-    - date: "Nov 4"
+    - date: "2024-11-04"
       talks:
         - speaker: "Bill Hass"
           title: "Bats of the Central Coast"
@@ -50,7 +50,7 @@
 
 - year: 2020
   events:
-    - date: "Feb 18"
+    - date: "2020-02-18"
       talks:
         - speaker: "Heather Liwang"
           title: "Studying Elephant Seals at Piedras Blancas"
@@ -61,19 +61,19 @@
 
 - year: 2019
   events:
-    - date: "Feb 26"
+    - date: "2019-02-26"
       talks:
         - speaker: "Jessica Griffiths"
           title: "The Mysteries of Monarch Migration"
         - speaker: "Ashley Fisher"
           title: "Modeling Monarch Migration"
-    - date: "May 14"
+    - date: "2019-05-14"
       talks:
         - speaker: "Nishi Rajakaruna"
           title: "Serpentine: A model habitat for ecological, evolutionary, and applied research"
         - speaker: "Kristen Nelson & Terra Verde"
           title: "Serpentine Endemism in San Luis Obispo County"
-    - date: "Oct 22"
+    - date: "2019-10-22"
       talks:
         - speaker: "Freddy Otte"
           title: "Pacific Lamprey Return to San Luis Obispo"
@@ -82,19 +82,19 @@
 
 - year: 2018
   events:
-    - date: "Feb 27"
+    - date: "2018-02-27"
       talks:
         - speaker: "Luis Burgos"
           title: "Hot in Here -- Thermal tolerance of Western Fence Lizards"
         - speaker: "Hayley Crowell"
           title: "Rattlesnake thermal ecology"
-    - date: "May 8"
+    - date: "2018-05-08"
       talks:
         - speaker: "Jeff Ebner"
           title: "Using Mapping to Look at Landscapes with New Eyes"
         - speaker: "Marc Horney"
           title: "Applications of drones/UAVs for wildlife monitoring: General principles and current Cal Poly projects"
-    - date: "Oct 23"
+    - date: "2018-10-23"
       talks:
         - speaker: "Laurie McConnico"
           title: "From Crypto to Micro-Rodolith Algae"
@@ -103,19 +103,19 @@
 
 - year: 2017
   events:
-    - date: "Feb 16"
+    - date: "2017-02-16"
       talks:
         - speaker: "Dylan Gomes"
           title: "Sensory Disturbances: Bats Foraging Under Noisy Conditions"
         - speaker: "Alissa Petrelli"
           title: "Soundscapes and their Influence on Wild Birds and Human Well-being"
-    - date: "May 11"
+    - date: "2017-05-11"
       talks:
         - speaker: "Julia Harencar"
           title: "The Birds and the Genes: Investigating the Consequences of Morro Bay Eelgrass Loss"
         - speaker: "George Trevelyan"
           title: "Farming Between the Tides: Oysters in Morro Bay"
-    - date: "Nov 2"
+    - date: "2017-11-02"
       talks:
         - speaker: "Erin Aiello"
           title: "Understanding the Decline of the Morro Bay Eelgrass Population and Assessing the Suitability of Locations for its Restoration"
@@ -124,20 +124,20 @@
 
 - year: 2016
   events:
-    - date: "Feb 11"
+    - date: "2016-02-11"
       talks:
         - speaker: "Sara Weinstein"
           title: "Wormy Wildlife: Local wildlife parasites with a particular emphasis on the raccoon roundworm"
       note: "30th Anniversary Celebration"
-    - date: "April 21"
+    - date: "2016-04-21"
       talks:
         - speaker: "Jason Johns"
           title: "Lean in a Southern Hemisphere Conifer, Araucaria columnaris"
         - speaker: "Lindsay Whitaker"
           title: "Botanical Conservation at the Guadalupe Dunes: An experiment on invasive veldt grass"
-    - date: "July 9"
+    - date: "2016-07-09"
       field_trip: "Oso Flaco Lake and Guadalupe Dunes Museum"
-    - date: "Oct 27"
+    - date: "2016-10-27"
       talks:
         - speaker: "Trevor Ruppert"
           title: "Thermal Ecology of the Common Chuckwalla"
@@ -146,21 +146,21 @@
 
 - year: 2015
   events:
-    - date: "Feb 12"
+    - date: "2015-02-12"
       talks:
         - speaker: "Pete Raimondi"
           title: "Overview of Seastar Wasting Along the West Coast of North America"
         - speaker: "Jen Nix"
           title: "Eelgrass Wasting Disease"
-    - date: "May 14"
+    - date: "2015-05-14"
       talks:
         - speaker: "Heather Price"
           title: "Bryozoans: A Look at the Fascinating Lives of the Mossy Animals"
         - speaker: "Ian Robbins"
           title: "Ocean Observing on the Central Coast"
-    - date: "July 18"
+    - date: "2015-07-18"
       field_trip: "Morro Bay Museum of Natural History: Plankton and Bryozoans under the Microscopes"
-    - date: "Oct 22"
+    - date: "2015-10-22"
       talks:
         - speaker: "Dave Johnston"
           title: "Bat Conservation in the Central California Coast: A Review of the Species and Emerging Challenges"
@@ -169,19 +169,19 @@
 
 - year: 2014
   events:
-    - date: "Feb 6"
+    - date: "2014-02-06"
       talks:
         - speaker: "John Perrine"
           title: "Camera Stations in Student Wildlife Research: Making Connections while Reducing Collisions"
         - speaker: "Clinton Francis"
           title: "How Noisy Humans Impact Wildlife: Changes in the Perceptual Environment Unravel Ecosystems"
-    - date: "May 8"
+    - date: "2014-05-08"
       talks:
         - speaker: "Jen Yost"
           title: "Speciation in Plants"
         - speaker: "Steve Schubert"
           title: "Fire Ecology in SLO County...the '94 Hwy. 41 Fire, the '96 Hwy 58 Fire and the '97 and 2012 Montana de Oro Fires"
-    - date: "Oct 23"
+    - date: "2014-10-23"
       talks:
         - speaker: "Ben Ruttenberg"
           title: "Fear, Loathing, and Monitoring in the Caribbean: Maintaining Optimism in an Ecosystem in Decline"
@@ -190,21 +190,21 @@
 
 - year: 2013
   events:
-    - date: "Feb 21"
+    - date: "2013-02-21"
       talks:
         - speaker: "Stacy Enoch & Aurianna Woodson"
           title: "Managing Special Status Species on Military Lands: National Guard, Camp Roberts and Camp SLO"
         - speaker: "Arthur Hazebrook"
           title: "Bridging the Gap Between the Environment and Military Training at Fort Hunter Liggett"
-    - date: "Apr 25"
+    - date: "2013-04-25"
       talks:
         - speaker: "Chris Kitts"
           title: "Using Microbial Tracking to Identify the Source of E. coli Contamination in San Luis Creek"
         - speaker: "Jared Ervin"
           title: "The Source Identification Protocol Project (SIPP) and Microbial Source Tracking at Arroyo Burro Beach, Santa Barbara"
-    - date: "July 19"
+    - date: "2013-07-19"
       field_trip: "A Tour of Ward's Science Culture Facilities"
-    - date: "Oct 10"
+    - date: "2013-10-10"
       talks:
         - speaker: "Mark Capelli"
           title: "Steelhead Recovery Plan of the South-Central California Coast"
@@ -213,21 +213,21 @@
 
 - year: 2012
   events:
-    - date: "Feb 16"
+    - date: "2012-02-16"
       talks:
         - speaker: "Ed Himelblau"
           title: "Learn by Doing Laboratory and Teacher Preparation at Cal Poly"
         - speaker: "Anne Marie Bergen"
           title: "Connect, Engage, Inspire---Building a Science Educational Community"
-    - date: "Apr 19"
+    - date: "2012-04-19"
       talks:
         - speaker: "Gita Kolluru"
           title: "The Need for Speed: Burrowing Behavior in Pacific Sand Crabs (Emerita analoga)"
         - speaker: "Kristin Hardy"
           title: "Life in a Hypoxic Ocean: How Changing Oxygen Conditions Influence Crab Anatomy and Behavior"
-    - date: "Jun 30"
+    - date: "2012-06-30"
       field_trip: "Atascadero Zoo"
-    - date: "Oct 25"
+    - date: "2012-10-25"
       talks:
         - speaker: "Melissa Miller"
           title: "A Status Update on the California Sea Otter and the Land-Sea Connection"
@@ -236,19 +236,19 @@
 
 - year: 2011
   events:
-    - date: "Feb 3"
+    - date: "2011-02-03"
       talks:
         - speaker: "John Perrine"
           title: "Ghost in the Sierra: Ecology and Management of the Endangered Sierra Nevada Red Fox"
         - speaker: "Lisa Drake"
           title: "Island Fox: Road to Recovery"
-    - date: "May 5"
+    - date: "2011-05-05"
       talks:
         - speaker: "Peggy Coon"
           title: "Staying Alive: Butterfly Characteristics, Survival Behaviors and Adaptations"
         - speaker: "Jessica Griffiths"
           title: "Monarch Butterflies: The royalty of the Butterfly World"
-    - date: "Oct 27"
+    - date: "2011-10-27"
       talks:
         - speaker: "Cameron Shields"
           title: "The Science behind Corneal Transplantation"
@@ -257,21 +257,21 @@
 
 - year: 2010
   events:
-    - date: "Feb 18"
+    - date: "2010-02-18"
       talks:
         - speaker: "Emily Taylor"
           title: "Suck it To Me: The Host-Parasite Relationship of the Western Fence Lizard and Western Black-legged Tick"
         - speaker: "Tony Frazier"
           title: "Natural History of the Northern Pacific Rattlesnake on the California Central Coast"
-    - date: "May 13"
+    - date: "2010-05-13"
       talks:
         - speaker: "David Keil"
           title: "Wildflowers and Open Spaces of San Luis Obispo"
         - speaker: "Matt Ritter"
           title: "Trees in California"
-    - date: "Jun 27"
+    - date: "2010-06-27"
       field_trip: "Piedras Blancas Light Station"
-    - date: "Oct 28"
+    - date: "2010-10-28"
       talks:
         - speaker: "Todd Alan Hagobian"
           title: "Will Exercise Make You Thin?"
@@ -280,15 +280,15 @@
 
 - year: 2009
   events:
-    - date: "Mar 19"
+    - date: "2009-03-19"
       talks:
         - speaker: "Salvador Jorgensen"
           title: "Central California White Sharks: A Tale of Fidelity, Homing and Population Isolation"
         - speaker: "Steven Wilson"
           title: "Electronic Tagging Reveals Population Structure and Migrations of Giant Bluefin Tuna"
-    - date: "July 25"
+    - date: "2009-07-25"
       field_trip: "San Luis Obispo Botanical Garden"
-    - date: "Oct 15"
+    - date: "2009-10-15"
       talks:
         - speaker: "Dean Wendt"
           title: "Introduction to SLOSEA"
@@ -301,13 +301,13 @@
 
 - year: 2008
   events:
-    - date: "Feb 21"
+    - date: "2008-02-21"
       talks:
         - speaker: "Michael Caterino"
           title: "The Diversity of California Beetles"
         - speaker: "Scott Jefferys"
           title: "Colony Collapse Syndrome in Honey Bees"
-    - date: "Apr 17"
+    - date: "2008-04-17"
       talks:
         - speaker: "Nikki Adams"
           title: "Sea Urchins and Sunlight: Sunburns to Sunscreen"
@@ -317,9 +317,9 @@
           title: "The Sea Urchin Embryo: A Sea of Proteins"
         - speaker: "Sarah Gravem"
           title: "Some for Me, Some for My Larvae: Sunscreen Allocation by Purple Sea Urchins"
-    - date: "Jun 28"
+    - date: "2008-06-28"
       field_trip: "Cal Poly Research Pier at Avila Beach"
-    - date: "Oct 30"
+    - date: "2008-10-30"
       talks:
         - speaker: "Lars Tomanek"
           title: "Biochemical Adaptations of Marine Organisms"
@@ -328,21 +328,21 @@
 
 - year: 2007
   events:
-    - date: "Feb 15"
+    - date: "2007-02-15"
       talks:
         - speaker: "Debra Stakes"
           title: "Highlights of the 2003 ROV Tiburon Exploration of the Guaymas Hot Vents, Gulf of California"
         - speaker: "Noah Doughty"
           title: "USS Macon: a Deep-water Archeological Survey of a USS Navy Dirigible"
-    - date: "Apr 19"
+    - date: "2007-04-19"
       talks:
         - speaker: "Bob Stafford"
           title: "Resource Assessment and Research at the Carrizo Plain Ecological Reserve"
         - speaker: "Jen Moonjian"
           title: "Current Distribution and Dietary Diversity of San Joaquin Kit Fox in SLO County"
-    - date: "July 14"
+    - date: "2007-07-14"
       field_trip: "Chimineas Ranch, Carrizo Plains"
-    - date: "Oct 18"
+    - date: "2007-10-18"
       talks:
         - speaker: "Freddy Otte"
           title: "Natural Resources Program of the City of SLO"
@@ -351,18 +351,18 @@
 
 - year: 2006
   events:
-    - date: "Feb 9"
+    - date: "2006-02-09"
       talks:
         - speaker: "Darwin Long & Henry Pontarelli"
           title: "Common Loons of Morro Bay"
       note: "20th Year Celebration"
-    - date: "Apr 6"
+    - date: "2006-04-06"
       talks:
         - speaker: "Students of Mark Moline, Cal Poly"
           title: "Short talks on Marine Biology: Cells to Swells - Marine Phytoplankton Across Scales"
-    - date: "July 8"
+    - date: "2006-07-08"
       field_trip: "Thomas' Triple T: Turtle and Tortoise Ranch"
-    - date: "Oct 26"
+    - date: "2006-10-26"
       talks:
         - speaker: "Charlene Ng & Don Weston"
           title: "Tracking the Source of Pyrethroid Pesticides in both Urban and Agricultural Creeks"
@@ -371,19 +371,19 @@
 
 - year: 2005
   events:
-    - date: "Feb 17"
+    - date: "2005-02-17"
       talks:
         - speaker: "Julie Schneider"
           title: "CA Red-legged Frogs of Guadalupe Dunes"
         - speaker: "Scott Kimura"
           title: "Are We Loving Our Tidepools to Death?"
-    - date: "Apr 14"
+    - date: "2005-04-14"
       talks:
         - speaker: "Dean Wendt & Students"
           title: "Marine Biology at Cal Poly"
-    - date: "Jul 9"
+    - date: "2005-07-09"
       field_trip: "Guadalupe Dunes Restoration Site with Wayne Vogler"
-    - date: "Oct 20"
+    - date: "2005-10-20"
       talks:
         - speaker: "Sam Sweet"
           title: "Management of Endangered Amphibians"
@@ -392,21 +392,21 @@
 
 - year: 2004
   events:
-    - date: "Feb 5"
+    - date: "2004-02-05"
       talks:
         - speaker: "Gregor Cailliet"
           title: "Elasmobranch Fishes and the Shark Research Center"
         - speaker: "Gregor Cailliet"
           title: "Longevity in Deep Sea Fishes"
-    - date: "May 6"
+    - date: "2004-05-06"
       talks:
         - speaker: "Nancy Dalman"
           title: "Toxin Defense Mechanisms in Mussels"
         - speaker: "Greg Smith"
           title: "Recreation & Western Snowy Plover Habitat"
-    - date: "Jun 26"
+    - date: "2004-06-26"
       field_trip: "Abalone Farm at Cayucos"
-    - date: "Oct 21"
+    - date: "2004-10-21"
       talks:
         - speaker: "Rich Little"
           title: "West Nile Virus"
@@ -415,19 +415,19 @@
 
 - year: 2003
   events:
-    - date: "Feb 20"
+    - date: "2003-02-20"
       talks:
         - speaker: "Howell Thomas"
           title: "Fossil Pathology"
         - speaker: "Harry Fierstine"
           title: "Exceptional Billfish Fossil from the Austrian Tyrol"
-    - date: "May 8"
+    - date: "2003-05-08"
       talks:
         - speaker: "Cal Poly Team & Francis Villablanca"
           title: "Hi Mountain Lookout Research"
-    - date: "Jun 28"
+    - date: "2003-06-28"
       field_trip: "Hi Mountain Lookout"
-    - date: "Oct 30"
+    - date: "2003-10-30"
       talks:
         - speaker: "Michele Roest"
           title: "Monterey Bay National Marine Sanctuary"
@@ -436,21 +436,21 @@
 
 - year: 2002
   events:
-    - date: "Feb 28"
+    - date: "2002-02-28"
       talks:
         - speaker: "Jack Levy"
           title: "Butterfly Endemism along the CA Central Coast"
         - speaker: "Frank Hovore"
           title: "Rain Beetles in CA"
-    - date: "May 16"
+    - date: "2002-05-16"
       talks:
         - speaker: "Jenny Langford"
           title: "Restoration of the Former Guadalupe Oilfield"
         - speaker: "Nancy Marsh"
           title: "Anaerobic Bacteria at Guadalupe Oilfield"
-    - date: "Jun 22"
+    - date: "2002-06-22"
       field_trip: "Vandenberg Air Base"
-    - date: "Nov 7"
+    - date: "2002-11-07"
       talks:
         - speaker: "David Epel"
           title: "Uncertain World of Sea Orphans (Larvae)"
@@ -459,21 +459,21 @@
 
 - year: 2001
   events:
-    - date: "Feb 15"
+    - date: "2001-02-15"
       talks:
         - speaker: "Richard Block"
           title: "Understanding Biodiversity"
         - speaker: "David Keil"
           title: "Plant Biodiversity"
-    - date: "May 17"
+    - date: "2001-05-17"
       talks:
         - speaker: "Deb Wilson"
           title: "Rockfish Management in California"
         - speaker: "John Steinbeck"
           title: "Effects of Power Plant Cooling on Nearshore Fish"
-    - date: "Jun"
+    - date: "2001-06-01"
       field_trip: "Vandenberg Air Base cancelled due to security concerns"
-    - date: "Oct 25"
+    - date: "2001-10-25"
       talks:
         - speaker: "Laird Henkel"
           title: "Snowy Plovers at Oceano Dunes"
@@ -482,21 +482,21 @@
 
 - year: 2000
   events:
-    - date: "Feb 10"
+    - date: "2000-02-10"
       talks:
         - speaker: "Chris Kitts"
           title: "E. coli in Morro Bay"
         - speaker: "Matt Oliver"
           title: "Pacific Oysters and Microbes in Morro Bay"
-    - date: "Apr"
+    - date: "2000-04-01"
       talks:
         - speaker: ""
           title: "Morro Manzanita"
         - speaker: ""
           title: "Banded Dune Snails in the Morro Bay Ecosystem"
-    - date: "Jun 3"
+    - date: "2000-06-03"
       field_trip: "Parkfield Earthquakes with Dwayne Hammon"
-    - date: "Oct 19"
+    - date: "2000-10-19"
       talks:
         - speaker: "Melissa Chechowitz"
           title: "Sea Otter Diseases"
@@ -505,19 +505,19 @@
 
 - year: 1999
   events:
-    - date: "Feb 25"
+    - date: "1999-02-25"
       talks:
         - speaker: "Richard Krejsa"
           title: "Conodonts"
-    - date: "Apr 22"
+    - date: "1999-04-22"
       talks:
         - speaker: "Andy Cohen"
           title: "Invasive Species in San Francisco Bay"
         - speaker: "Mike Behrens"
           title: "Introduced Sea Slug in Morro Bay"
-    - date: "Jun"
+    - date: "1999-06-01"
       field_trip: "San Simeon State Park with Greg Smith"
-    - date: "Oct 21"
+    - date: "1999-10-21"
       talks:
         - speaker: "Dave Johnston"
           title: "Bat Biology"
@@ -526,21 +526,21 @@
 
 - year: 1998
   events:
-    - date: "Feb 5"
+    - date: "1998-02-05"
       talks:
         - speaker: "Dennis Sheridan"
           title: "Herpetology of the Amazon"
         - speaker: "Sean McKeown"
           title: "Herpetology of Islands in the Indian Ocean"
-    - date: "Apr 23"
+    - date: "1998-04-23"
       talks:
         - speaker: "Peggy Rice"
           title: "Medicinal Plant Compounds"
         - speaker: "Bret Niedens"
           title: "Microbial Alternatives to Medicinal Plant Compounds"
-    - date: "Jun 27"
+    - date: "1998-06-27"
       field_trip: "Camatta Ranch Biology and Paleontology"
-    - date: "Oct 15"
+    - date: "1998-10-15"
       talks:
         - speaker: "Larry Saslaw"
           title: "Effect of Weeds on Native Animals in Carrizo Plains"
@@ -549,21 +549,21 @@
 
 - year: 1997
   events:
-    - date: "Feb 13"
+    - date: "1997-02-13"
       talks:
         - speaker: "Robert Turbow"
           title: "Human Newborn Intensive Care"
         - speaker: "Bonnie Markoff"
           title: "Veterinary Cardiology"
-    - date: "Apr 24"
+    - date: "1997-04-24"
       talks:
         - speaker: "Kate Symonds"
           title: "Conservation of Los Osos Dune Scrub"
         - speaker: "Deb Hillyard"
           title: "Managing Monterey Pine; the Hospice Plan"
-    - date: "Jun 21"
+    - date: "1997-06-21"
       field_trip: "Survey of Aquatic Organisms in Dairy Creek with Rich Little, Karen Worcester, Katie Kropp and Judy Neuhauser - lunch at El Chorro Regional Park"
-    - date: "Nov 6"
+    - date: "1997-11-06"
       talks:
         - speaker: "Milton Love"
           title: "Fish Communities of Local Oil Platforms"
@@ -572,13 +572,13 @@
 
 - year: 1996
   events:
-    - date: "Feb 8"
+    - date: "1996-02-08"
       talks:
         - speaker: "Robert Lea"
           title: "Sharks and Shark/Human Interactions"
         - speaker: "Tom Rice & Royden Nakamura"
           title: "Sources of Mercury Pollution in the Lake Nacimiento Watershed"
-    - date: "Oct 17"
+    - date: "1996-10-17"
       talks:
         - speaker: "James Harrington"
           title: "Use of Rapid Bioassessment Protocols for Streams"
@@ -587,19 +587,19 @@
 
 - year: 1995
   events:
-    - date: "Feb 9"
+    - date: "1995-02-09"
       talks:
         - speaker: "David Summerville"
           title: "Alternative Biofouling Control Methods for Powerplants"
         - speaker: "Alison Murray"
           title: "New Approaches for Assaying Marine Microbial Diversity"
-    - date: "May 18"
+    - date: "1995-05-18"
       talks:
         - speaker: "Don Morris"
           title: "Santa Rosa Island Pygmy Mammoths"
         - speaker: "Harry Fierstine"
           title: "Fossil Vertebrates of SLO County"
-    - date: "Nov 2"
+    - date: "1995-11-02"
       talks:
         - speaker: "VL Holland"
           title: "Biological Studies on Vandenberg Air Base"
@@ -608,19 +608,19 @@
 
 - year: 1994
   events:
-    - date: "Feb 10"
+    - date: "1994-02-10"
       talks:
         - speaker: "Chris Barr"
           title: "Current Status of California Condors"
         - speaker: "John Rosser"
           title: "Costa Rica Biology"
-    - date: "May 5"
+    - date: "1994-05-05"
       talks:
         - speaker: "David Keil"
           title: "Preparation of 'The Jepson Manual'"
         - speaker: "Norm Pillsbury"
           title: "Aspen (Populus tremuloides) Inventory in Sequoia National Forest"
-    - date: "Oct 27"
+    - date: "1994-10-27"
       talks:
         - speaker: "Michael Soule"
           title: "The N American Wilderness Recovery Plan"
@@ -629,21 +629,21 @@
 
 - year: 1993
   events:
-    - date: "Feb 4"
+    - date: "1993-02-04"
       talks:
         - speaker: "Suzanne Benech"
           title: "Sea Otters of the Central Coast"
         - speaker: "Royden Nakamura & Ben Stephens"
           title: "Hagfish Biology"
-    - date: "Apr 15"
+    - date: "1993-04-15"
       talks:
         - speaker: "Richard Frankel"
           title: "Morro Bay's Magnetic Bacteria"
         - speaker: "Hendrik Poinar"
           title: "Amber Organisms and PaleoDNA"
-    - date: "Jun 26"
+    - date: "1993-06-26"
       field_trip: "Pt. San Luis Lighthouse with S. Schubert & S. Sparling"
-    - date: "Oct 28"
+    - date: "1993-10-28"
       talks:
         - speaker: "Donald Smilovitz"
           title: "Valley Fever and Local Infectious Diseases"
@@ -652,21 +652,21 @@
 
 - year: 1992
   events:
-    - date: "Jan 30"
+    - date: "1992-01-30"
       talks:
         - speaker: "Greg Forbes"
           title: "Feeding Ecology of Green Sea Turtles"
         - speaker: "Fred Andoli"
           title: "Tortoises and Other Animals of Galapagos Islands"
-    - date: "Apr 22"
+    - date: "1992-04-22"
       talks:
         - speaker: "Steve Junak"
           title: "Flora of Santa Cruz Island"
         - speaker: "Paul Collins"
           title: "Biology of the CA Island Fox"
-    - date: "Jul 11"
+    - date: "1992-07-11"
       field_trip: "M.B. Oyster Beds by Canoe with Tom Richards and Steve Schubert - lunch at M.B. Yacht Club"
-    - date: "Oct 15"
+    - date: "1992-10-15"
       talks:
         - speaker: "Dennis Frey"
           title: "Monarch Butterflies"
@@ -675,21 +675,21 @@
 
 - year: 1991
   events:
-    - date: "Feb 7"
+    - date: "1991-02-07"
       talks:
         - speaker: "Raul Cano"
           title: "Detecting Diseases with DNA Molecules"
         - speaker: "Francis Villablanca"
           title: "New Approaches using DNA from Museum Specimens"
-    - date: "Apr 25"
+    - date: "1991-04-25"
       talks:
         - speaker: "Harry Thiers"
           title: "A Look at the Mushrooms of Central California"
         - speaker: "Michael Doyle"
           title: "Natural History of the Juan Fernandez Islands"
-    - date: "Aug 10"
+    - date: "1991-08-10"
       field_trip: "Piedras Blancas with Brian Hatfield and Ron Jamieson"
-    - date: "Oct 10"
+    - date: "1991-10-10"
       talks:
         - speaker: "Kurt Kline"
           title: "Bioassay Technique"
@@ -698,21 +698,21 @@
 
 - year: 1990
   events:
-    - date: "Feb 8"
+    - date: "1990-02-08"
       talks:
         - speaker: "Dennis Hynes"
           title: "Craneflies and Other Insects of New Caledonia"
         - speaker: "Adrian Wenner"
           title: "Bee-lining Insects of Santa Cruz Island"
-    - date: "May 10"
+    - date: "1990-05-10"
       talks:
         - speaker: "Dan Holland"
           title: "Natural History of Western Pond Turtles"
         - speaker: "Mark Jennings"
           title: "Natural History of CA Redlegged Frogs"
-    - date: "Jun 9"
+    - date: "1990-06-09"
       field_trip: "Hike to Mussel Rock with Bill Deneen"
-    - date: "Oct 11"
+    - date: "1990-10-11"
       talks:
         - speaker: "Joel Hedgpeth"
           title: "Ecology of San Francisco Bay"
@@ -721,19 +721,19 @@
 
 - year: 1989
   events:
-    - date: "Jan 26"
+    - date: "1989-01-26"
       talks:
         - speaker: "C. Woodhouse"
           title: "Cetacean Census Along the Central Coast"
         - speaker: "Gary Page & Lynne Stenzel"
           title: "Snowy Plover Biology"
-    - date: "Apr 20"
+    - date: "1989-04-20"
       talks:
         - speaker: "Chuck Warner"
           title: "Carrizo Plains: Research and Progress"
         - speaker: "Dick Anderson"
           title: "Biological Inventory of Carrizo Plains"
-    - date: "Oct 19"
+    - date: "1989-10-19"
       talks:
         - speaker: "Michael Horn"
           title: "Intertidal Fishes of the Central Coast"
@@ -742,21 +742,21 @@
 
 - year: 1988
   events:
-    - date: "Jan 21"
+    - date: "1988-01-21"
       talks:
         - speaker: "David Keil"
           title: "Rare Plants of San Luis Obispo County"
         - speaker: "Timothy Plumb"
           title: "Fire Ecology and Plant Communities in SLO Co."
-    - date: "Apr 7"
+    - date: "1988-04-07"
       talks:
         - speaker: "Ron Ritschard"
           title: "Impacts of Oil and Thermal Discharge as Indicated by Satellite Data"
         - speaker: "Galen Rathbun"
           title: "Mermaids, Manatees, Sea Cows and Satellites"
-    - date: "Jun 18"
+    - date: "1988-06-18"
       field_trip: "Fossil Hunting Along the Avila and Pismo Shore with lunch at Bill Deneen's"
-    - date: "Oct 20"
+    - date: "1988-10-20"
       talks:
         - speaker: "Jo Ann Wheatly"
           title: "Happenings in Entomology"
@@ -765,21 +765,21 @@
 
 - year: 1987
   events:
-    - date: "Feb 5"
+    - date: "1987-02-05"
       talks:
         - speaker: "Richard Krejsa"
           title: "A New Look at Craniate Origins"
         - speaker: "Lawrence Barnes"
           title: "Fossil Marine Mammals of the Central Coast"
-    - date: "Apr 5"
+    - date: "1987-04-05"
       talks:
         - speaker: "Tom Ruehr"
           title: "The Kesterson Water Problem"
         - speaker: "Camm Swift"
           title: "Natural History of the Tidewater Goby"
-    - date: "Jun 25"
+    - date: "1987-06-25"
       field_trip: "Charles Paddock Zoo with Alan Metzler"
-    - date: "Oct 22"
+    - date: "1987-10-22"
       talks:
         - speaker: "Harry Fierstine"
           title: "Fishing for Billfish with Scalpel and Shovel"
@@ -788,20 +788,20 @@
 
 - year: 1986
   events:
-    - date: "Feb 13"
+    - date: "1986-02-13"
       talks:
         - speaker: "Bud Laurent"
           title: "Morro Bay Ghost Shrimp Controversy"
         - speaker: "Dave Sommerville"
           title: "The Salmon Project at Avila Bay"
       note: "First CCBS meeting"
-    - date: "Apr 17"
+    - date: "1986-04-17"
       talks:
         - speaker: "Norm Pillsbury"
           title: "Hardwood Management on the Central Coast"
         - speaker: "Ron Ruppert"
           title: "Lopez Lake and Biotic Diversity"
-    - date: "Oct 16"
+    - date: "1986-10-16"
       talks:
         - speaker: "Eric Johnson"
           title: "California Condor"
