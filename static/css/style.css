@@ -302,16 +302,18 @@ section {
 
 .hero-card {
   position: relative;
-  background: rgba(255, 255, 255, 0.12);
+  background: linear-gradient(140deg, rgba(12, 34, 56, 0.62), rgba(16, 60, 90, 0.5));
   border-radius: 20px;
   padding: 1.6rem 1.75rem;
-  box-shadow: 0 16px 35px rgba(11, 32, 54, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.28);
+  box-shadow: 0 16px 35px rgba(11, 32, 54, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(6px);
   z-index: 1;
+  color: #f7fbff;
 }
 
 .card-label {
-  color: rgba(247, 251, 255, 0.7);
+  color: rgba(247, 251, 255, 0.8);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: 0.8rem;
@@ -321,7 +323,7 @@ section {
 
 .card-text {
   font-size: 1rem;
-  color: rgba(247, 251, 255, 0.9);
+  color: #f5f8fb;
   margin-bottom: 1.1rem;
 }
 
@@ -329,18 +331,18 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1rem;
-  color: rgba(247, 251, 255, 0.9);
+  color: #f0f5fa;
 }
 
 .hero-highlight-title {
   display: inline-block;
   font-weight: 700;
-  color: #d6ecff;
+  color: #ffffff;
 }
 
 .hero-highlights p {
   margin: 0.25rem 0 0;
-  color: rgba(247, 251, 255, 0.78);
+  color: rgba(240, 245, 250, 0.9);
 }
 
 /* Section heading */
