@@ -7,7 +7,7 @@
     {{ range .Site.Data.talks }}
     <section class="talks-year">
       <h2>{{ .year }}</h2>
-      {{ range .events }}
+      {{ range (.events | reverse) }}
       <div class="talk-entry {{ if .field_trip }}field-trip{{ end }}">
         <p class="talk-date">{{ .date }}</p>
         {{ if .field_trip }}
