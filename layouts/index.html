@@ -15,11 +15,12 @@
 <section class="next-event" id="next-event">
   <div class="container narrow">
     <div class="section-heading">
-      <p class="eyebrow">Upcoming</p>
-      <h2>Next Event</h2>
-      <p class="lede">Thursday evening community talks with two speakers and refreshments.</p>
+      <p class="eyebrow">Next Meeting</p>
+      {{ with .Site.Data.next_event }}
+      <h2>{{ .theme }}</h2>
+      {{ if .note }}<p class="lede">{{ .note }}</p>{{ end }}
     </div>
-    {{ with .Site.Data.next_event }}
+
     <div class="event-card">
       <div class="event-date">
         <span class="month">{{ .month }}</span>
@@ -27,14 +28,6 @@
         <span class="year">{{ .year }}</span>
       </div>
       <div class="event-details">
-        <div class="event-header">
-          {{ if .note }}
-          <span class="event-badge">{{ .note }}</span>
-          {{ end }}
-          {{ if .theme }}
-          <h3 class="event-theme-title">{{ .theme }}</h3>
-          {{ end }}
-        </div>
 
         <div class="event-meta">
           <div class="meta-row">

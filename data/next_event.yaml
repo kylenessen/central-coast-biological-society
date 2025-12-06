@@ -6,7 +6,7 @@ time: "6:00 PM"
 location: "Humdinger Brewing"
 address: "855 Capitolio Way STE 1, San Luis Obispo, CA 93401"
 # map_url: "https://maps.app.goo.gl/..." # Optional: could add a google maps link field if needed for the template
-theme: "Change in SLO Co over the past many decades"
+theme: "Long Term Ecological Changes in San Luis Obispo County"
 speakers:
   - name: "TBD"
     title: "Speaker details coming soon"
