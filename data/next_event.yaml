@@ -1,13 +1,13 @@
 # Next upcoming event - update this file to change the homepage announcement
 month: "Feb"
-day: "10"
-year: "2025"
-time: "7:00 PM"
-location: "PG&E Community Center, San Luis Obispo"
-theme: "Carrizo Plain Wildlife"
+day: "17"
+year: "2026"
+time: "6:00 PM"
+location: "Humdinger Brewing"
+address: "855 Capitolio Way STE 1, San Luis Obispo, CA 93401"
+# map_url: "https://maps.app.goo.gl/..." # Optional: could add a google maps link field if needed for the template
+theme: "Change in SLO Co over the past many decades"
 speakers:
-  - name: "Dave Hacker"
-    title: "From Recent Abundance to Present Obscurity: the History, Current Status, and Management of Pronghorn in the Carrizo Plains"
-  - name: "Scott Appleby"
-    title: "Giant Kangaroo Rats on the Carrizo Plain: Cutesy, Demure Ecosystem Engineers Under Pressure"
-note: "Free admission. Refreshments provided."
+  - name: "TBD"
+    title: "Speaker details coming soon"
+note: "40th Anniversary Meeting! Join us for a special celebration."

@@ -7,7 +7,7 @@
       <p class="tagline">Quarterly science talks for curious naturalists across land and sea.</p>
       <div class="hero-actions">
         <a href="#next-event" class="btn">See the next talk</a>
-        <a href="{{ "/join/" | relURL }}" class="btn ghost">Join the mailing list</a>
+        <a href="{{ " /join/" | relURL }}" class="btn ghost">Join the mailing list</a>
       </div>
       <ul class="pill-list">
         <li>Free evening programs</li>
@@ -17,7 +17,8 @@
     </div>
     <div class="hero-card">
       <p class="card-label">Community-built biology</p>
-      <p class="card-text">We bring together biologists, educators, students, and nature enthusiasts to share research, stories, and stewardship across the Central Coast.</p>
+      <p class="card-text">We bring together biologists, educators, students, and nature enthusiasts to share research,
+        stories, and stewardship across the Central Coast.</p>
       <div class="hero-highlights">
         <div>
           <span class="hero-highlight-title">Welcoming & free</span>
@@ -51,23 +52,49 @@
         <span class="year">{{ .year }}</span>
       </div>
       <div class="event-details">
-        <p class="event-time">{{ .time }}</p>
-        <p class="event-location">{{ .location }}</p>
-        {{ if .theme }}
-        <p class="event-theme"><strong>Theme:</strong> {{ .theme }}</p>
-        {{ end }}
-        <div class="speakers">
+        <div class="event-header">
+          {{ if .note }}
+          <span class="event-badge">{{ .note }}</span>
+          {{ end }}
+          {{ if .theme }}
+          <h3 class="event-theme-title">{{ .theme }}</h3>
+          {{ end }}
+        </div>
+
+        <div class="event-meta">
+          <div class="meta-row">
+            <svg class="meta-icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px"
+              fill="currentColor">
+              <path
+                d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z" />
+            </svg>
+            <span class="meta-text">{{ .time }}</span>
+          </div>
+
+          <div class="meta-row align-start">
+            <svg class="meta-icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px"
+              fill="currentColor">
+              <path
+                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+              <path d="M0 0h24v24H0z" fill="none" />
+            </svg>
+            <div class="meta-location-group">
+              <span class="location-name">{{ .location }}</span>
+              {{ if .address }}<span class="location-address">{{ .address }}</span>{{ end }}
+              <a href="https://www.google.com/maps/search/?api=1&query={{ .location }}{{ if .address }} {{ .address }}{{ end }}"
+                target="_blank" rel="noopener noreferrer" class="map-link">Get Directions &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="speakers-section">
           {{ range .speakers }}
           <div class="speaker">
-            <h3>{{ .name }}</h3>
-            <p class="talk-title">"{{ .title }}"</p>
+            <span class="speaker-name">{{ .name }}</span>
+            <span class="speaker-title">{{ .title }}</span>
           </div>
           {{ end }}
         </div>
-        {{ if .note }}
-        <p class="event-note">{{ .note }}</p>
-        {{ end }}
-        <a class="btn subtle" href="{{ "/join/" | relURL }}">Get reminders</a>
       </div>
     </div>
     {{ else }}
@@ -84,9 +111,12 @@
     </div>
     <div class="intro-grid">
       <div class="intro-copy">
-        <p>The Central Coast Biological Society has been bringing together biologists, educators, students, and nature enthusiasts since 1986. We host quarterly talks on topics ranging from marine biology to terrestrial ecology, from microscopic organisms to whales.</p>
-        <p>Our evenings mix research updates, field notes, and the stories behind local stewardship work—always with time to meet fellow naturalists.</p>
-        <p><a href="{{ "/about/" | relURL }}" class="btn secondary">Read our 40-year history</a></p>
+        <p>The Central Coast Biological Society has been bringing together biologists, educators, students, and nature
+          enthusiasts since 1986. We host quarterly talks on topics ranging from marine biology to terrestrial ecology,
+          from microscopic organisms to whales.</p>
+        <p>Our evenings mix research updates, field notes, and the stories behind local stewardship work—always with
+          time to meet fellow naturalists.</p>
+        <p><a href="{{ " /about/" | relURL }}" class="btn secondary">Read our 40-year history</a></p>
       </div>
       <div class="intro-card">
         <h3>What you can do</h3>
@@ -107,19 +137,19 @@
       <p class="eyebrow">Stay connected</p>
       <h3>Join the mailing list</h3>
       <p>Get 3–4 emails per year with meeting dates, themes, and field trip plans.</p>
-      <a class="btn" href="{{ "/join/" | relURL }}">Sign up</a>
+      <a class="btn" href="{{ " /join/" | relURL }}">Sign up</a>
     </div>
     <div class="cta-card">
       <p class="eyebrow">Explore</p>
       <h3>Talk history</h3>
       <p>Browse past programs—from pronghorn and kelp forests to condors and kangaroo rats.</p>
-      <a class="btn ghost" href="{{ "/talks/" | relURL }}">See the archive</a>
+      <a class="btn ghost" href="{{ " /talks/" | relURL }}">See the archive</a>
     </div>
     <div class="cta-card">
       <p class="eyebrow">Lead</p>
       <h3>Steering Committee</h3>
       <p>Help shape future topics, field trips, and community connections.</p>
-      <a class="btn ghost" href="{{ "/committee/" | relURL }}">Meet the committee</a>
+      <a class="btn ghost" href="{{ " /committee/" | relURL }}">Meet the committee</a>
     </div>
   </div>
 </section>
