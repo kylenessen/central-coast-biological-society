@@ -1,7 +1,7 @@
 <header class="site-header">
   <div class="container">
     <div class="header-content">
-      <a href="{{ relURL `/` }}" class="logo">
+      <a href="{{ `/` | relLangURL }}" class="logo">
         <span class="logo-mark" aria-hidden="true">CCBS</span>
         <span class="logo-text">
           <span class="site-name">{{ .Site.Title }}</span>
@@ -16,7 +16,7 @@
         </button>
         <ul class="nav-menu">
           {{ range .Site.Menus.main }}
-          <li><a href="{{ .URL }}" {{ if $.IsMenuCurrent "main" . }}class="active" {{ end }}>{{ .Name }}</a></li>
+          <li><a href="{{ .URL | relLangURL }}" {{ if $.IsMenuCurrent "main" . }}class="active" {{ end }}>{{ .Name }}</a></li>
           {{ end }}
         </ul>
       </nav>
