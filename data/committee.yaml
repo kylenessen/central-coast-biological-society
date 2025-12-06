@@ -1,22 +1,44 @@
 # Current Steering Committee (40th Anniversary - 2026)
 current:
   - name: "Steve Hendricks"
-    role: "Chair"
-  - name: "Dave Bowlus"
-    role: ""
-  - name: "Faylla Chapman"
-    role: ""
   - name: "Kyle Nessen"
-    role: ""
   - name: "Ron Ruppert"
-    role: ""
+  - name: "Dave Bowlus"
+  - name: "Faylla Chapman"
+  - name: "Steve Schubert"
+  - name: "Jason Curtis"
   - name: "Trevor Ruppert"
-    role: ""
-  # Add additional members here
+  - name: "Devon Bradley"
+  - name: "Erin Naegle"
 
-# Honorary charter members
-honorary:
+# Founding Committee (1986)
+founders:
+  - name: "Gene Elsdon"
+  - name: "Dave Behrens"
   - name: "Harry Fierstine"
-    role: "Honorary Charter Member"
+  - name: "Bud Laurent"
+  - name: "Ron Ruppert"
+  - name: "Pete Pedersen"
+
+# Past Members
+past:
   - name: "Arline Fierstine"
-    role: "Honorary Charter Member"
+  - name: "Dick Davis"
+  - name: "Danielle DeRome"
+  - name: "Jane Donaldson"
+  - name: "Noah Doughty"
+  - name: "Dennis Frey"
+  - name: "Nancy Dalman"
+  - name: "Courtney Hart"
+  - name: "Deb Hillyard"
+  - name: "John Jenkins"
+  - name: "Jim Kelly"
+  - name: "Ann Morris"
+  - name: "Jen Nix"
+  - name: "Jennifer O'Leary"
+  - name: "Terry Buck"
+  - name: "Tony Frazier"
+  - name: "Jason Curtis"
+  - name: "Karen Worcester"
+  - name: "Emily Taylor"
+  - name: "Roger Zachary"
