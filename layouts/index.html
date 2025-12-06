@@ -55,6 +55,71 @@
           </div>
         </div>
 
+        <div class="event-actions" style="margin-bottom: 1.5rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
+          <a href="#" id="add-to-google" class="btn subtle" target="_blank" rel="noopener noreferrer"
+            data-title="Central Coast Biological Society Meeting"
+            data-date="{{ .month }} {{ .day }}, {{ .year }} {{ .time }}" data-location="{{ .location }}, {{ .address }}"
+            data-description="{{ .theme }}. {{ .note }}">
+            Google Calendar
+          </a>
+          <a href="#" id="add-to-ics" class="btn subtle" download="event.ics">
+            Apple / Outlook
+          </a>
+        </div>
+
+        <script>
+          (function () {
+            const googleBtn = document.getElementById('add-to-google');
+            const icsBtn = document.getElementById('add-to-ics');
+            if (!googleBtn || !icsBtn) return;
+
+            const dateStr = googleBtn.dataset.date; // e.g., "Feb 17, 2026 6:00 PM"
+            const eventDate = new Date(dateStr);
+
+            if (isNaN(eventDate)) return; // Invalid date
+
+            // Assume 2 hour duration
+            const endDate = new Date(eventDate.getTime() + 2 * 60 * 60 * 1000);
+
+            const formatDate = (date) => {
+              return date.toISOString().replace(/-|:|\.\d\d\d/g, "");
+            };
+
+            const start = formatDate(eventDate);
+            const end = formatDate(endDate);
+            const title = googleBtn.dataset.title;
+            const description = googleBtn.dataset.description;
+            const location = googleBtn.dataset.location;
+
+            // Google Calendar
+            const googleUrl = new URL('https://www.google.com/calendar/render');
+            googleUrl.searchParams.append('action', 'TEMPLATE');
+            googleUrl.searchParams.append('text', title);
+            googleUrl.searchParams.append('dates', `${start}/${end}`);
+            googleUrl.searchParams.append('details', description);
+            googleUrl.searchParams.append('location', location);
+
+            googleBtn.href = googleUrl.toString();
+
+            // ICS File
+            const icsContent = [
+              'BEGIN:VCALENDAR',
+              'VERSION:2.0',
+              'BEGIN:VEVENT',
+              'URL:' + document.URL,
+              'DTSTART:' + start,
+              'DTEND:' + end,
+              'SUMMARY:' + title,
+              'DESCRIPTION:' + description,
+              'LOCATION:' + location,
+              'END:VEVENT',
+              'END:VCALENDAR'
+            ].join('\n');
+
+            icsBtn.href = 'data:text/calendar;charset=utf8,' + encodeURIComponent(icsContent);
+          })();
+        </script>
+
         <div class="speakers-section">
           {{ range .speakers }}
           <div class="speaker">
@@ -79,19 +144,19 @@
       <p class="eyebrow">Stay connected</p>
       <h3>Join the mailing list</h3>
       <p>Get 3–4 emails per year with meeting dates, themes, and field trip plans.</p>
-      <a class="btn" href="{{ "/join/" | relURL }}">Sign up</a>
+      <a class="btn" href="{{ " /join/" | relURL }}">Sign up</a>
     </div>
     <div class="cta-card">
       <p class="eyebrow">Explore</p>
       <h3>Talk history</h3>
       <p>Browse past programs—from Morro manzanita and nudibranchs to condors and soil fungi.</p>
-      <a class="btn ghost" href="{{ "/talks/" | relURL }}">See the archive</a>
+      <a class="btn ghost" href="{{ " /talks/" | relURL }}">See the archive</a>
     </div>
     <div class="cta-card">
       <p class="eyebrow">Lead</p>
       <h3>Steering Committee</h3>
       <p>Help shape future topics, field trips, and community connections.</p>
-      <a class="btn ghost" href="{{ "/committee/" | relURL }}">Meet the committee</a>
+      <a class="btn ghost" href="{{ " /committee/" | relURL }}">Meet the committee</a>
     </div>
   </div>
 </section>
