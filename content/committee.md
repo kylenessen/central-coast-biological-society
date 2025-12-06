@@ -10,9 +10,11 @@ title: "Steering Committee"
 
 ## Our History of Leadership
 
+<div class="history-content">
 Over the years, many individuals have served on the Steering Committee. The founding committee in 1986 consisted of Gene Elsdon (Atascadero High School), Dave Behrens (PG&E), Harry Fierstine (Cal Poly), Bud Laurent (CA Fish & Game), Ron Ruppert (Cuesta College), and Pete Pedersen (Cuesta College).
 
 Past committee members include Roger Zachary, Terry Buck, Danielle DeRome, Dennis Frey, Ann Morris, John Jenkins, Nancy Dalman, Jim Kelly, Karen Worcester, Deb Hillyard, Faylla Chapman, Steve Schubert, Noah Doughty, Dick Davis, Jane Donaldson, Dave Bowlus, Jason Curtis, Tony Frazier, Courtney Hart, Jen Nix, Jennifer O'Leary, Pete Pedersen, and Emily Taylor.
+</div>
 
 <div class="join-note">
 <h3>Interested in Joining the Committee?</h3>
