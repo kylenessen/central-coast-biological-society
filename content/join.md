@@ -24,7 +24,7 @@ Annual membership dues help us cover meeting expenses and provide modest stipend
 - **Regular membership:** $10/year
 - **Student membership:** $5/year
 
-To become a member, please contact Steve Hendricks at [steve@example.com](mailto:steve@example.com).
+To become a member, please contact Steve Hendricks at [shendric@cuesta.edu](mailto:shendric@cuesta.edu).
 
 </div>
 
@@ -34,7 +34,7 @@ To become a member, please contact Steve Hendricks at [steve@example.com](mailto
 
 Show your support for California's Central Coast biology! We have CCBS stickers and shirts available.
 
-Contact Steve Hendricks at [steve@example.com](mailto:steve@example.com) for availability and pricing.
+Contact Steve Hendricks at [shendric@cuesta.edu](mailto:shendric@cuesta.edu) for availability and pricing.
 
 </div>
 

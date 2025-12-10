@@ -19,5 +19,5 @@ Past committee members include Roger Zachary, Terry Buck, Danielle DeRome, Denni
 <div class="join-note">
 <h3>Interested in Joining the Committee?</h3>
 <p>Members are encouraged to join the Steering Committee, offer comments for improvement, and suggest speakers, topics, or activities.</p>
-<p><a href="mailto:steve@example.com">Email Steve Hendricks</a> to learn more about getting involved.</p>
+<p><a href="mailto:shendric@cuesta.edu">Email Steve Hendricks</a> to learn more about getting involved.</p>
 </div>
