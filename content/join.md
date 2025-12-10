@@ -8,8 +8,7 @@ title: "Join Us"
 
 Stay informed about upcoming talks and events across California's Central Coast! Sign up for our email announcements.
 
-<!-- Replace the URL below with your actual Google Form URL -->
-<p><a href="https://forms.google.com/your-form-url" class="btn" target="_blank">Join the Mailing List</a></p>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeN8h7vzOdVpurg5ddJ-50GWFBI8JhO1UdZ95_GCFm7NWeR5g/viewform?usp=dialog" class="btn" target="_blank" rel="noopener noreferrer">Join the Mailing List</a></p>
 
 <p><em>We typically send 3-4 announcements per year for our quarterly meetings and summer field trip.</em></p>
 
