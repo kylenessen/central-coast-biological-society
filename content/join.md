@@ -44,6 +44,6 @@ Contact Steve Hendricks at [steve@example.com](mailto:steve@example.com) for ava
 
 Our meetings are **free and open to the public**. No membership required to attend! Just show up at the PG&E Community Center in San Luis Obispo, California on meeting nights. We'd love to see you there.
 
-Check our [home page]({{ \"/\" | absLangURL }}) for the next scheduled event.
+Check our [home page](/) for the next scheduled event.
 
 </div>
