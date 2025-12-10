@@ -9,7 +9,7 @@ disableKinds = ['taxonomy', 'term']
       unsafe = true
 
 [params]
-  description = 'Quarterly science talks on natural history since 1986'
+  description = "Quarterly science talks on California's Central Coast since 1986"
   org_email = 'steve@example.com'  # Update with Steve's actual email
 
 [menu]

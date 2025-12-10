@@ -6,7 +6,7 @@ title: "Join Us"
 
 ## Mailing List
 
-Stay informed about upcoming talks and events! Sign up for our email announcements.
+Stay informed about upcoming talks and events across California's Central Coast! Sign up for our email announcements.
 
 <!-- Replace the URL below with your actual Google Form URL -->
 <p><a href="https://forms.google.com/your-form-url" class="btn" target="_blank">Join the Mailing List</a></p>
@@ -32,7 +32,7 @@ To become a member, please contact Steve Hendricks at [steve@example.com](mailto
 
 ## Merchandise
 
-Show your support for Central Coast biology! We have CCBS stickers and shirts available.
+Show your support for California's Central Coast biology! We have CCBS stickers and shirts available.
 
 Contact Steve Hendricks at [steve@example.com](mailto:steve@example.com) for availability and pricing.
 
@@ -42,7 +42,7 @@ Contact Steve Hendricks at [steve@example.com](mailto:steve@example.com) for ava
 
 ## Attend a Meeting
 
-Our meetings are **free and open to the public**. No membership required to attend! Just show up at the PG&E Community Center on meeting nights. We'd love to see you there.
+Our meetings are **free and open to the public**. No membership required to attend! Just show up at the PG&E Community Center in San Luis Obispo, California on meeting nights. We'd love to see you there.
 
 Check our [home page]({{ \"/\" | absLangURL }}) for the next scheduled event.
 
