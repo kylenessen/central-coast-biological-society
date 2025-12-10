@@ -1,4 +1,4 @@
-baseURL = 'https://kylenessen.github.io/central-coast-biological-society/'
+baseURL = 'https://ccbiosociety.org/'
 languageCode = 'en-us'
 title = 'Central Coast Biological Society'
 disableKinds = ['taxonomy', 'term']
