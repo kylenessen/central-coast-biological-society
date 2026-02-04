@@ -323,8 +323,7 @@ section {
 }
 
 .event-card {
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: block;
   gap: 1.5rem;
   background: #fff;
   border-radius: 18px;
@@ -365,6 +364,8 @@ section {
 .event-details {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  align-items: stretch;
   gap: 0.55rem;
 }
 
@@ -724,6 +725,7 @@ section {
 
 .event-meta {
   display: grid;
+  width: 100%;
   gap: 0.85rem;
   margin-bottom: 1.5rem;
   padding: 1.2rem;
@@ -789,6 +791,7 @@ section {
 
 .speakers-section {
   border-top: 1px dashed var(--color-border);
+  width: 100%;
   padding-top: 1rem;
 }
 
