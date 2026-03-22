@@ -1,4 +1,24 @@
-# Complete history of CCBS talks from 1986-2025
+# Complete history of CCBS talks from 1986-2026
+
+- year: 2026
+  events:
+    - date: "2026-02-17"
+      note: "40th Anniversary!"
+      talks:
+        - speaker: "Neil Havlick & Doug Drynan"
+          title: "Carrizo Plain NM"
+        - speaker: "Mike Harris"
+          title: "Recovery of Southern Sea Otters"
+        - speaker: "Kyle Nessen"
+          title: "Trees of SLO"
+        - speaker: "Steve Schubert"
+          title: "Morro Rock Peregrine Falcon Recovery"
+        - speaker: "Steve Hendricks"
+          title: "Restoration of the Piedras Blancas ONA"
+        - speaker: "Pat Brown"
+          title: "Restoration of the Elfin Forest"
+        - speaker: "Heather Liwanag"
+          title: "Recovery of Northern Elephant Seals"
 
 - year: 2025
   events:
