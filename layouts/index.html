@@ -15,7 +15,7 @@
 <section class="next-event" id="next-event">
   <div class="container narrow">
     <div class="section-heading">
-      <p class="eyebrow">Next Meeting</p>
+      <p class="eyebrow">{{ .Site.Data.next_event.eyebrow | default "Next Meeting" }}</p>
       {{ with .Site.Data.next_event }}
       <h2>{{ .theme }}</h2>
       {{ if .note }}<p class="lede">{{ .note }}</p>{{ end }}
@@ -44,7 +44,7 @@
             <div class="meta-location-group">
               <span class="location-name">{{ .location }}</span>
               {{ if .address }}<span class="location-address">{{ .address }}</span>{{ end }}
-              <a href="https://www.google.com/maps/search/?api=1&query={{ .location }}{{ if .address }} {{ .address }}{{ end }}"
+              <a href="https://www.google.com/maps/search/?api=1&query={{ .location | urlquery }}{{ if .address }}%20{{ .address | urlquery }}{{ end }}"
                 target="_blank" rel="noopener noreferrer" class="map-link">Get Directions &rarr;</a>
             </div>
           </div>
@@ -52,8 +52,9 @@
 
         <div class="event-actions" style="margin-bottom: 1.5rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
           <a href="#" id="add-to-google" class="btn subtle" target="_blank" rel="noopener noreferrer"
-            data-title="Central Coast Biological Society (California) Meeting"
-            data-date="{{ .month }} {{ .day }}, {{ .year }} {{ .time }}" data-location="{{ .location }}, {{ .address }}"
+            data-title="{{ with .title }}{{ . }}{{ else }}Central Coast Biological Society Meeting{{ end }}"
+            data-date="{{ .month }} {{ .day }}, {{ .year }} {{ .time }}" data-duration-hours="{{ .duration_hours | default 2 }}"
+            data-location="{{ .location }}{{ if .address }}, {{ .address }}{{ end }}"
             data-description="{{ .theme }}. {{ .note }}">
             Google Calendar
           </a>
@@ -78,8 +79,8 @@
 
             if (isNaN(eventDate)) return; // Invalid date
 
-            // Assume 2 hour duration
-            const endDate = new Date(eventDate.getTime() + 2 * 60 * 60 * 1000);
+            const durationHours = Number(googleBtn.dataset.durationHours) || 2;
+            const endDate = new Date(eventDate.getTime() + durationHours * 60 * 60 * 1000);
 
             const formatDate = (date) => {
               return date.toISOString().replace(/-|:|\.\d\d\d/g, "");
@@ -120,14 +121,16 @@
           })();
         </script>
 
+        {{ with .speakers }}
         <div class="speakers-section">
-          {{ range .speakers }}
+          {{ range . }}
           <div class="speaker">
             <span class="speaker-name">{{ .name }}</span>
             <span class="speaker-title">{{ .title }}</span>
           </div>
           {{ end }}
         </div>
+        {{ end }}
       </div>
     </div>
     {{ else }}
